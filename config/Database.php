@@ -8,16 +8,13 @@ class Database
 //private $password = 'sesame';
     private $conn;
 
-//public $host = 'frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-//public $db_name = 'd4plawwz86y7caqa';
-//public $username = 'iazm9vbj5xjhy4i3';
-// public $password = 'eormls01njyhex6l';
+
 
 
 //DB connect
     public function connect()
     {
-        $url = getenv ('mysql://ct6rmozpamywgnvd:vxv18vzsfkg4urzt@ao9moanwus0rjiex.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/gfblgpih5c369zyg');
+        $url = getenv ('JAWSDB_URL');
         $dbparts = parse_url ($url);
 
         $hostname = $dbparts['host'];
@@ -31,8 +28,7 @@ class Database
 
         try {
             $this -> conn = new PDO($dsn, $username, $password);
-//        $this->conn = new PDO('mysql:host=' . $this->host . ';dbname=' . $this->db_name, $this->username, $this->password);
-//        $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
         } catch (PDOException $e) {
             echo 'Connection Error: ' . $e -> getMessage ();
         }
