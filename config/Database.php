@@ -6,7 +6,7 @@ class Database
 //private $db_name = 'finalproject';
 //private $username = 'root';
 //private $password = 'sesame';
-    private $conn;
+//    private $conn;
 
 //public $host = 'frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
 //public $db_name = 'd4plawwz86y7caqa';
