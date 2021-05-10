@@ -76,7 +76,7 @@ class Author {
         $this->author = htmlspecialchars(strip_tags($this->author));
 
         // Bind data
-        $stmt-> bindParam(':author', $this->author);
+        $stmt->bindParam(':author', $this->author);
 
         // Execute query
         if($stmt->execute()) {
@@ -133,7 +133,7 @@ class Author {
         $this->id = htmlspecialchars(strip_tags($this->id));
 
         // Bind Data
-        $stmt-> bindParam(':id', $this->id);
+        $stmt->bindParam(':id', $this->id);
 
         // Execute query
         if($stmt->execute()) {

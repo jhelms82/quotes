@@ -76,7 +76,7 @@ class Category {
         $this->category = htmlspecialchars(strip_tags($this->category));
 
         // Bind data
-        $stmt-> bindParam(':category', $this->category);
+        $stmt->bindParam(':category', $this->category);
 
         // Execute query
         if($stmt->execute()) {
@@ -107,8 +107,8 @@ class Category {
         $this->id = htmlspecialchars(strip_tags($this->id));
 
         // Bind data
-        $stmt-> bindParam(':category', $this->category);
-        $stmt-> bindParam(':id', $this->id);
+        $stmt->bindParam(':category', $this->category);
+        $stmt->bindParam(':id', $this->id);
 
         // Execute query
         if($stmt->execute()) {
@@ -133,7 +133,7 @@ class Category {
         $this->id = htmlspecialchars(strip_tags($this->id));
 
         // Bind Data
-        $stmt-> bindParam(':id', $this->id);
+        $stmt->bindParam(':id', $this->id);
 
         // Execute query
         if($stmt->execute()) {

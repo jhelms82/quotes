@@ -30,7 +30,7 @@ class Database
             $this->conn = new PDO($dsn, $username, $password);
 
         } catch (PDOException $e) {
-            echo 'Connection Error: ' . $e -> getMessage ();
+            echo 'Connection Error: ' . $e->getMessage ();
         }
 
         return $this->conn;
