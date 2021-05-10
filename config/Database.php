@@ -7,10 +7,10 @@ class Database {
 //private $password = 'sesame';
 private $conn;
 
-public $host = 'frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-public $db_name = 'd4plawwz86y7caqa';
-public $username = 'iazm9vbj5xjhy4i3';
- public $password = 'eormls01njyhex6l';
+//public $host = 'frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+//public $db_name = 'd4plawwz86y7caqa';
+//public $username = 'iazm9vbj5xjhy4i3';
+// public $password = 'eormls01njyhex6l';
 
 
 
