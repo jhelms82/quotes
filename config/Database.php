@@ -16,7 +16,7 @@ private $conn;
 
 //DB connect
 public function connect () {
-    $url = getenv('JAWSDB_URL');
+    $url = getenv('mysql://ct6rmozpamywgnvd:vxv18vzsfkg4urzt@ao9moanwus0rjiex.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/gfblgpih5c369zyg');
     $dbparts = parse_url($url);
 
     $hostname = $dbparts['host'];
