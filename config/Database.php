@@ -1,10 +1,10 @@
 <?php
 class Database {
 //DB Params
-private $host = 'localhost';
-private $db_name = 'finalproject';
-private $username = 'root';
-private $password = 'sesame';
+//private $host = 'localhost';
+//private $db_name = 'finalproject';
+//private $username = 'root';
+//private $password = 'sesame';
 private $conn;
 
 //     $host = 'frwahxxknm9kwy6c.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
