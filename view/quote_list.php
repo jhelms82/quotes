@@ -104,9 +104,7 @@
                 </p>
             <?php } ?>
         </section>
-        <footer>
-            <p>&copy; <?php echo date("Y"); ?> Quotes</p>
-        </footer>
+
     </main>
     </body>
 

@@ -75,16 +75,6 @@ a:hover {
     color: rgb(208, 133, 4);
 }
 
-footer {
-    padding: 0 10px 10px;
-    border-top: 2px solid black;
-}
-
-footer p {
-    text-align: right;
-    margin-top: 0.5em;
-    font-size: 80%;
-}
 
 /*==== Utility Classes ====*/
 
@@ -111,68 +101,68 @@ footer p {
 
 /*==== Nav Classes ====*/
 
-.dropmenus {
-    display: flex;
-    flex-direction: column;
-}
+/*.dropmenus {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
 
-.dropmenus label {
-    position: absolute;
-    left: -10000px;
-}
+/*.dropmenus label {*/
+/*    position: absolute;*/
+/*    left: -10000px;*/
+/*}*/
 
-.dropmenus select {
-    margin: 10px;
-    border: 1px solid gray;
-}
+/*.dropmenus select {*/
+/*    margin: 10px;*/
+/*    border: 1px solid gray;*/
+/*}*/
 
-.dropmenus select:not(:first-child) {
-    margin-top: 0;
-}
+/*.dropmenus select:not(:first-child) {*/
+/*    margin-top: 0;*/
+/*}*/
 
-.sortBy {
-    display: flex;
-    justify-content: space-evenly;
-}
+/*.sortBy {*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*}*/
 
 /*=== Table Elements and Classes ===*/
 
-table {
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 100%;
-}
+/*table {*/
+/*    border: 1px solid black;*/
+/*    border-collapse: collapse;*/
+/*    width: 100%;*/
+/*}*/
 
-tr:hover,
-tr:focus {
-    background-color: yellow;
-}
+/*tr:hover,*/
+/*tr:focus {*/
+/*    background-color: yellow;*/
+/*}*/
 
-td,
-th {
-    border: 1px dashed black;
-    padding: 0.2em 0.5em 0.2em 0.5em;
-    text-align: left;
-}
+/*td,*/
+/*th {*/
+/*    border: 1px dashed black;*/
+/*    padding: 0.2em 0.5em 0.2em 0.5em;*/
+/*    text-align: left;*/
+/*}*/
 
 
 
-.table-overflow-customer td:last-child {
-    text-align: right;
-}
+/*.table-overflow-customer td:last-child {*/
+/*    text-align: right;*/
+/*}*/
 
-.table-overflow,
-.table-overflow-customer,
-.admin-table-overflow {
-    max-height: 40vh;
-    overflow-y: scroll;
-    overflow-x: scroll;
-    border: 1px solid #000;
-}
+/*.table-overflow,*/
+/*.table-overflow-customer,*/
+/*.admin-table-overflow {*/
+/*    max-height: 40vh;*/
+/*    overflow-y: scroll;*/
+/*    overflow-x: scroll;*/
+/*    border: 1px solid #000;*/
+/*}*/
 
-.table-overflow-customer {
-    max-height: 50vh;
-}
+/*.table-overflow-customer {*/
+/*    max-height: 50vh;*/
+/*}*/
 
 
 
