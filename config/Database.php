@@ -31,8 +31,7 @@ class Database
         $db = 'scyddzzkvdymrsrw';
         $username = 'r8kel2jekjdp3v9p';
         $password = 'w798oejyiro3ditm';
-        $charset = 'utmf8md4';
-        $dsn = 'mysql:host=$host;dbname=$db;charset=$charset';
+        $dsn = 'mysql:host=$host;dbname=$db;';
 
         try {
             $this->conn = new PDO($dsn, $username, $password);
