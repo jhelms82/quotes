@@ -8,72 +8,72 @@
 
 /*=== Base Elements ===*/
 
-html {
-    font-size: 18px;
-    background-color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/*html {*/
+/*    font-size: 18px;*/
+/*    background-color: whitesmoke;*/
+/*    font-family: Arial, Helvetica, sans-serif;*/
+/*}*/
 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+/*body {*/
+/*    min-height: 100vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 
-main {
-    width: 100%;
-    flex-grow: 1;
-    background-color: white;
-    padding: 10px;
-}
+/*main {*/
+/*    width: 100%;*/
+/*    flex-grow: 1;*/
+/*    background-color: white;*/
+/*    padding: 10px;*/
+/*}*/
 
-input,
-label,
-select {
-    font-size: 1rem;
-}
+/*input,*/
+/*label,*/
+/*select {*/
+/*    font-size: 1rem;*/
+/*}*/
 
-header {
-    border-bottom: 2px solid black;
-}
+/*header {*/
+/*    border-bottom: 2px solid black;*/
+/*}*/
 
-header h1 {
-    padding: 0.5em 0.25em;
-    color: black;
-    font-size: 150%;
-}
+/*header h1 {*/
+/*    padding: 0.5em 0.25em;*/
+/*    color: black;*/
+/*    font-size: 150%;*/
+/*}*/
 
-h2 {
-    font-size: 120%;
-    margin: 0;
-    padding: 0.25em 0 0.5em;
-    color: rgb(208, 133, 4);
-}
+/*h2 {*/
+/*    font-size: 120%;*/
+/*    margin: 0;*/
+/*    padding: 0.25em 0 0.5em;*/
+/*    color: rgb(208, 133, 4);*/
+/*}*/
 
-nav {
-    display: block;
-}
+/*nav {*/
+/*    display: block;*/
+/*}*/
 
-section {
-    width: 100%;
-    padding: 10px;
-}
+/*section {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*}*/
 
-form {
-    display: flex;
-    flex-direction: column;
-}
+/*form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
 
-a {
-    color: royalblue;
-    font-weight: bold;
-}
+/*a {*/
+/*    color: royalblue;*/
+/*    font-weight: bold;*/
+/*}*/
 
-a:hover {
-    color: rgb(208, 133, 4);
-}
+/*a:hover {*/
+/*    color: rgb(208, 133, 4);*/
+/*}*/
 
 
 
