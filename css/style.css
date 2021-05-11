@@ -245,11 +245,11 @@ th {
 }
 
 @media screen and (min-width: 500px) and (max-height: 999px) {
-    /* my office monitor is 1762w and 991h */
-    /* which is wide... but has a short height */
-    /*.table-overflow {*/
-    /*    max-height: 45vh;*/
-    /*}*/
+     /*my office monitor is 1762w and 991h */
+     /*which is wide... but has a short height */
+    .table-overflow {
+        max-height: 45vh;
+    }
 
     .table-overflow-customer {
         max-height: 40vh;
@@ -260,10 +260,10 @@ th {
 }
 
 @media screen and (min-width: 1080px) and (min-height: 1080px) {
-    /* for largest monitors */
-    /*.table-overflow, .table-overflow-customer {*/
-    /*    max-height: 50vh;*/
-    /*}*/
+     for largest monitors
+    .table-overflow, .table-overflow-customer {
+        max-height: 50vh;
+    }
 
 
 }
