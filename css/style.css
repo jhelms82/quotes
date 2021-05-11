@@ -8,72 +8,72 @@
 
 /*=== Base Elements ===*/
 
-/*html {*/
-/*    font-size: 18px;*/
-/*    background-color: whitesmoke;*/
-/*    font-family: Arial, Helvetica, sans-serif;*/
-/*}*/
+html {
+    font-size: 18px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/*body {*/
-/*    min-height: 100vh;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-/*main {*/
-/*    width: 100%;*/
-/*    flex-grow: 1;*/
-/*    background-color: white;*/
-/*    padding: 10px;*/
-/*}*/
+main {
+    width: 100%;
+    flex-grow: 1;
+    background-color: white;
+    padding: 10px;
+}
 
-/*input,*/
-/*label,*/
-/*select {*/
-/*    font-size: 1rem;*/
-/*}*/
+input,
+label,
+select {
+    font-size: 1rem;
+}
 
-/*header {*/
-/*    border-bottom: 2px solid black;*/
-/*}*/
+header {
+    border-bottom: 2px solid black;
+}
 
-/*header h1 {*/
-/*    padding: 0.5em 0.25em;*/
-/*    color: black;*/
-/*    font-size: 150%;*/
-/*}*/
+header h1 {
+    padding: 0.5em 0.25em;
+    color: black;
+    font-size: 150%;
+}
 
-/*h2 {*/
-/*    font-size: 120%;*/
-/*    margin: 0;*/
-/*    padding: 0.25em 0 0.5em;*/
-/*    color: rgb(208, 133, 4);*/
-/*}*/
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: 0.25em 0 0.5em;
+    color: rgb(208, 133, 4);
+}
 
-/*nav {*/
-/*    display: block;*/
-/*}*/
+nav {
+    display: block;
+}
 
-/*section {*/
-/*    width: 100%;*/
-/*    padding: 10px;*/
-/*}*/
+section {
+    width: 100%;
+    padding: 10px;
+}
 
-/*form {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
+form {
+    display: flex;
+    flex-direction: column;
+}
 
-/*a {*/
-/*    color: royalblue;*/
-/*    font-weight: bold;*/
-/*}*/
+a {
+    color: royalblue;
+    font-weight: bold;
+}
 
-/*a:hover {*/
-/*    color: rgb(208, 133, 4);*/
-/*}*/
+a:hover {
+    color: rgb(208, 133, 4);
+}
 
 
 
@@ -102,65 +102,65 @@
 
 /*==== Nav Classes ====*/
 
-/*.dropmenus {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
+.dropmenus {
+    display: flex;
+    flex-direction: column;
+}
 
-/*.dropmenus label {*/
-/*    position: absolute;*/
-/*    left: -10000px;*/
-/*}*/
+.dropmenus label {
+    position: absolute;
+    left: -10000px;
+}
 
-/*.dropmenus select {*/
-/*    margin: 10px;*/
-/*    border: 1px solid gray;*/
-/*}*/
+.dropmenus select {
+    margin: 10px;
+    border: 1px solid gray;
+}
 
-/*.dropmenus select:not(:first-child) {*/
-/*    margin-top: 0;*/
-/*}*/
+.dropmenus select:not(:first-child) {
+    margin-top: 0;
+}
 
-/*.sortBy {*/
-/*    display: flex;*/
-/*    justify-content: space-evenly;*/
-/*}*/
+.sortBy {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /*=== Table Elements and Classes ===*/
 
-/*table {*/
-/*    border: 1px solid black;*/
-/*    border-collapse: collapse;*/
-/*    width: 100%;*/
-/*}*/
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
 
 
 
-/*td,*/
-/*th {*/
-/*    border: 1px dashed black;*/
-/*    padding: 0.2em 0.5em 0.2em 0.5em;*/
-/*    text-align: left;*/
-/*}*/
+td,
+th {
+    border: 1px dashed black;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    text-align: left;
+}
 
 
 
-/*.table-overflow-customer td:last-child {*/
-/*    text-align: right;*/
-/*}*/
+.table-overflow-customer td:last-child {
+    text-align: right;
+}
 
-/*.table-overflow,*/
-/*.table-overflow-customer,*/
-/*.admin-table-overflow {*/
-/*    max-height: 40vh;*/
-/*    overflow-y: scroll;*/
-/*    overflow-x: scroll;*/
-/*    border: 1px solid #000;*/
-/*}*/
+.table-overflow,
+.table-overflow-customer,
+.admin-table-overflow {
+    max-height: 40vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    border: 1px solid #000;
+}
 
-/*.table-overflow-customer {*/
-/*    max-height: 50vh;*/
-/*}*/
+.table-overflow-customer {
+    max-height: 50vh;
+}
 
 
 
@@ -251,9 +251,9 @@
     /*    max-height: 45vh;*/
     /*}*/
 
-    /*.table-overflow-customer {*/
-    /*    max-height: 40vh;*/
-    /*}*/
+    .table-overflow-customer {
+        max-height: 40vh;
+    }
 
 
 
@@ -261,11 +261,9 @@
 
 @media screen and (min-width: 1080px) and (min-height: 1080px) {
     /* for largest monitors */
-    .table-overflow, .table-overflow-customer {
-        max-height: 50vh;
-    }
+    /*.table-overflow, .table-overflow-customer {*/
+    /*    max-height: 50vh;*/
+    /*}*/
 
-    .admin-table, .admin-table-overflow {
-        max-height: 70vh;
-    }
+
 }

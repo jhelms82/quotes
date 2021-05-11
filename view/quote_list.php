@@ -81,14 +81,14 @@
                         <tbody>
                         <?php foreach ($quotes as $quote) : ?>
                             <tr>
-                                <td scope="row"><?= $quote['quote']; ?></td>
+                                <td><?= $quote['quote']; ?></td>
                                 <?php if ($quote['author_name']) { ?>
-                                    <td scope="row"><?= $quote['author_name']; ?></td>
+                                    <td><?= $quote['author_name']; ?></td>
                                 <?php } else { ?>
                                     <td>None</td>
                                 <?php } ?>
                                 <?php if ($quote['category_name']) { ?>
-                                    <td scope="row"><?= $quote['category_name']; ?></td>
+                                    <td><?= $quote['category_name']; ?></td>
                                 <?php } else { ?>
                                     <td>None</td>
                                 <?php } ?>
