@@ -27,13 +27,13 @@ private $password = 'sesame';
 //        $dsn = "mysql:host={$hostname}dbname={$database}";
 //        $this->conn = null;
 
-//        $dsn = 'mysql:host=un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=scyddzzkvdymrsrw';
-//        $username = 'r8kel2jekjdp3v9p';
-//        $password = 'w798oejyiro3ditm';
+        $dsn = 'mysql:host=un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=scyddzzkvdymrsrw';
+        $username = 'r8kel2jekjdp3v9p';
+        $password = 'w798oejyiro3ditm';
 
-        $dsn = 'mysql:host=localhost;dbname=finalproject';
-        $username = 'root';
-        $password = 'sesame';
+//        $dsn = 'mysql:host=localhost;dbname=finalproject';
+//        $username = 'root';
+//        $password = 'sesame';
 
 
         try {
