@@ -35,7 +35,7 @@
             </option>
         <?php endforeach; ?>
     </select>
-<?php } ?>
+<?php } ?> <br>
 
 
     <section id="dropmenus" class="dropmenus">
@@ -53,7 +53,7 @@
             </option>
         <?php endforeach; ?>
     </select>
-        <?php } ?>
+        <?php } ?><br>
     </section>
 
         <section id="sortBy" class="sortBy">
