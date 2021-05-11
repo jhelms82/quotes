@@ -45,35 +45,36 @@ header h1 {
     font-size: 150%;
 }
 
-/*h2 {*/
-/*    font-size: 120%;*/
-/*    margin: 0;*/
-/*    padding: 0.25em 0 0.5em;*/
-/*    color: rgb(208, 133, 4);*/
-/*}*/
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: 0.25em 0 0.5em;
+    color: rgb(208, 133, 4);
+}
 
-/*nav {*/
-/*    display: block;*/
-/*}*/
+nav {
+    display: block;
+}
 
-/*section {*/
-/*    width: 100%;*/
-/*    padding: 10px;*/
-/*}*/
+section {
+    width: 100%;
+    padding: 10px;
+}
 
-/*form {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
+form {
+    display: flex;
+    flex-direction: column;
+}
 
-/*a {*/
-/*    color: royalblue;*/
-/*    font-weight: bold;*/
-/*}*/
+a {
+    color: royalblue;
+    font-weight: bold;
+}
 
-/*a:hover {*/
-/*    color: rgb(208, 133, 4);*/
-/*}*/
+a:hover {
+    color: rgb(208, 133, 4);
+}
+
 
 
 /*==== Utility Classes ====*/
@@ -127,42 +128,42 @@ header h1 {
 
 /*=== Table Elements and Classes ===*/
 
-/*table {*/
-/*    border: 1px solid black;*/
-/*    border-collapse: collapse;*/
-/*    width: 100%;*/
-/*}*/
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-/*tr:hover,*/
-/*tr:focus {*/
-/*    background-color: yellow;*/
-/*}*/
+tr:hover,
+tr:focus {
+    background-color: yellow;
+}
 
-/*td,*/
-/*th {*/
-/*    border: 1px dashed black;*/
-/*    padding: 0.2em 0.5em 0.2em 0.5em;*/
-/*    text-align: left;*/
-/*}*/
+td,
+th {
+    border: 1px dashed black;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    text-align: left;
+}
 
 
 
-/*.table-overflow-customer td:last-child {*/
-/*    text-align: right;*/
-/*}*/
+.table-overflow-customer td:last-child {
+    text-align: right;
+}
 
-/*.table-overflow,*/
-/*.table-overflow-customer,*/
-/*.admin-table-overflow {*/
-/*    max-height: 40vh;*/
-/*    overflow-y: scroll;*/
-/*    overflow-x: scroll;*/
-/*    border: 1px solid #000;*/
-/*}*/
+.table-overflow,
+.table-overflow-customer,
+.admin-table-overflow {
+    max-height: 40vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    border: 1px solid #000;
+}
 
-/*.table-overflow-customer {*/
-/*    max-height: 50vh;*/
-/*}*/
+.table-overflow-customer {
+    max-height: 50vh;
+}
 
 
 
