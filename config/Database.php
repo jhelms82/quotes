@@ -27,11 +27,10 @@ class Database
 //        $dsn = "mysql:host={$hostname}dbname={$database}";
 //        $this->conn = null;
 
-        $host = 'un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-        $db = 'scyddzzkvdymrsrw';
+        $dsn = 'mysql:host=un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=scyddzzkvdymrsrw';
         $username = 'r8kel2jekjdp3v9p';
         $password = 'w798oejyiro3ditm';
-        $dsn = 'mysql:host=$host;dbname=$db;';
+
 
         try {
             $this->conn = new PDO($dsn, $username, $password);
