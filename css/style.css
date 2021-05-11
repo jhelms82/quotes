@@ -128,42 +128,39 @@ a:hover {
 
 /*=== Table Elements and Classes ===*/
 
-/*table {*/
-/*    border: 1px solid black;*/
-/*    border-collapse: collapse;*/
-/*    width: 100%;*/
-/*}*/
-
-/*tr:hover,*/
-/*tr:focus {*/
-/*    background-color: yellow;*/
-/*}*/
-
-/*td,*/
-/*th {*/
-/*    border: 1px dashed black;*/
-/*    padding: 0.2em 0.5em 0.2em 0.5em;*/
-/*    text-align: left;*/
-/*}*/
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
 
 
 
-/*.table-overflow-customer td:last-child {*/
-/*    text-align: right;*/
-/*}*/
+td,
+th {
+    border: 1px dashed black;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    text-align: left;
+}
 
-/*.table-overflow,*/
-/*.table-overflow-customer,*/
-/*.admin-table-overflow {*/
-/*    max-height: 40vh;*/
-/*    overflow-y: scroll;*/
-/*    overflow-x: scroll;*/
-/*    border: 1px solid #000;*/
-/*}*/
 
-/*.table-overflow-customer {*/
-/*    max-height: 50vh;*/
-/*}*/
+
+.table-overflow-customer td:last-child {
+    text-align: right;
+}
+
+.table-overflow,
+.table-overflow-customer,
+.admin-table-overflow {
+    max-height: 40vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    border: 1px solid #000;
+}
+
+.table-overflow-customer {
+    max-height: 50vh;
+}
 
 
 
@@ -250,22 +247,16 @@ a:hover {
 @media screen and (min-width: 500px) and (max-height: 999px) {
     /* my office monitor is 1762w and 991h */
     /* which is wide... but has a short height */
-    .table-overflow {
-        max-height: 45vh;
-    }
+    /*.table-overflow {*/
+    /*    max-height: 45vh;*/
+    /*}*/
 
-    .table-overflow-customer {
-        max-height: 40vh;
-    }
+    /*.table-overflow-customer {*/
+    /*    max-height: 40vh;*/
+    /*}*/
 
-    .add_vehicle_form, .add_container {
-        flex-direction: row;
-    }
 
-    .zippylinks {
-        display: flex;
-        justify-content: space-evenly;
-    }
+
 }
 
 @media screen and (min-width: 1080px) and (min-height: 1080px) {
